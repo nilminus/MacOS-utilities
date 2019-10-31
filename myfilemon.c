@@ -64,7 +64,8 @@ usage()
   fprintf(stderr,"\t" FILTER_EVENT_OPTION "|" FILTER_EVENT_LONG_OPTION " event[,event]: filter only these events\n");
   fprintf(stderr,"\t" STOP_OPTION "|" STOP_LONG_OPTION         ":                auto-stop the process generating event\n");
   fprintf(stderr,"\t" LINK_OPTION "|" LINK_LONG_OPTION         ":                auto-create a hard link to file (prevents deletion by program :-)\n");
-  fprintf(stderr,"\t" COLOR_OPTION "|" COLOR_LONG_OPTION " (or set JCOLOR=1 first)\n");
+  fprintf(stderr,"\t" COLOR_OPTION "|" COLOR_LONG_OPTION "\n");
+  // setting JCOLOR=1 using sudo ?
 
   fprintf(stderr,"\tThis is Nilminus updated filemon, compiled on " __DATE__ "\n");
 }
